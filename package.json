@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node index",
+    "build": "npx expo build:web"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,8 @@
     "jsdom": "^19.0.0",
     "webpack": "^5.65.0",
     "ws": "^8.4.0"
+  },
+  "devDependencies": {
+    "expo-cli": "latest"
   }
 }
